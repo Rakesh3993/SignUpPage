@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    background-color: black;
+    color: white;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainContainer {
+    width: 50%;
+    margin: 150px auto;
+}
+
+.heading {
+    color: #fff;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.mainForm input {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.radioButton {
+    font-size: 17px;
+}
+
+.signUpButton {
+    font-family: inter;
+    font-size: 25px;
+    height: 50px;
+    width: 200px;
+    font-weight: 300;
+}
